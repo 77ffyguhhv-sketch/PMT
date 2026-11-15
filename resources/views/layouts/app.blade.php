@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PMT — Fleet & Task Management</title>
+    <title>PMT — Task Management</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -376,7 +376,6 @@
         <div class="nav-links">
             <a href="/tasks" class="{{ request()->is('tasks') ? 'active' : '' }}">All Tasks</a>
             <a href="/tasks/create" class="{{ request()->is('tasks/create') ? 'active' : '' }}">+ New Task</a>
-            <a href="/cars" class="{{ request()->is('cars*') ? 'active' : '' }}">Cars Fleet</a>
             <a href="/api/tasks">JSON API</a>
             <a href="/docs/api">API Docs</a>
         </div>
